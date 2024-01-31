@@ -5,7 +5,7 @@ import Task from "./Task"
 const App = () => {
   const [tasks, setTasks] = useState([
     {
-      text: "go to the bank",
+      text: "go to the bank and get the kitty",
       image: "https://placekitten.com/g/200/300"
     },
     {
