@@ -30,6 +30,8 @@ const handleSubmit = e => {
         image:""
       });
       // Launch first attack here
+      // https://images.unsplash.com/photo-1550583724-b2692b85b150<script>alert("Hacked!")</script>
+      //eval(task.text)
     }
   }
 
@@ -70,8 +72,13 @@ const handleSubmit = e => {
         />
       ))}
     </>
-        {/* Launch second attack here. */}
+        {/* Launch second attack here. 
+        <div style={{"visibility": "hidden"}} dangerouslySetInnerHTML={{__html: task.image}} />
+        */}
+        {/* <img src="1" onerror="alert('Gotcha!')" /> */}
     </>
+
+
   )
 }
 
